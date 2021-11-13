@@ -1,0 +1,159 @@
+body {
+    text-align: center;
+    font-family:"Comic Sans MS" ,sans-serif;
+}
+
+h1 {
+    font-family: 'Sacramento', cursive;
+    margin: 100px auto 0 auto;
+    font-size: 6rem;
+    color: rgb(72, 121, 122);
+}
+.intro {
+    margin-left: 35%;
+    width: 30% ;
+}
+
+h2 {
+    font-family: Helvetica, sans-serif;
+    color: rgb(75, 182, 224);
+    font-size: 2rem;
+}
+hr{
+    border: dotted steelblue 6px;
+    border-bottom: none;
+    width: 4%;
+    margin: 100px auto;
+}
+
+.top-container {
+    background: #91bdda;
+    position: relative;
+    padding-top: 30px;
+    margin-bottom: 30px;
+}
+
+
+.middle-container {
+    margin: 80px 0;
+}
+
+.contact-message{ 
+    width: 30%;
+    margin: 10px auto 30px;
+}
+.bottom-container {
+    padding: 50px 0 20px;
+    margin: 0;
+    background:rgb(110, 172, 223)
+}
+
+.skill-row {
+    width: 50%;
+    margin: 10px auto 100px auto;
+    text-align: left;
+    line-height: 2;
+}
+.skills {
+     margin: 100px 0;
+ }
+
+.art-img {
+    float: right;
+    width: 30%;
+    border-radius: 100px; 
+    margin-right: 100px;
+}
+
+.computer-img {
+    float: right;
+    width: 20%;
+    border-radius: 70px;
+    margin-left: 100px;
+
+}
+
+#my-skills{
+    position: relative;
+    left: 50px;
+}
+.pro {
+    color: #0f455e;
+    font-size: 1.5rem;
+}
+
+.top-cloud {
+    width: 10%;
+    position: absolute;
+    right: 30%;
+    top: 10%;  
+}
+
+.bottom-cloud {
+    width: 10%;
+    position: absolute;
+    left: 28%;
+    top: 30%;
+    opacity: 0.7;   
+}
+
+
+.btn {
+    background: #11cdd4;
+    border-radius: 8px;
+    color: #ffffff;
+    font-size: 20px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+}
+.btn:hover {
+    background: #30e3cb;
+    text-decoration: none;
+}
+
+a {
+    text-decoration: none;
+    font-family: sans-serif;
+    padding: 5px;
+    margin:5px 5px ;
+    color: rgb(52, 81, 90);
+    cursor: pointer;
+}
+a:hover{
+    color: #eaf6f6;
+}
+
+.copyright {
+    font-family: 'Gill Sans', sans-serif;
+    color: #eaf6f6;
+}
+
+@keyframes letter-animation {
+    0% {
+        transform: translate(0px,0px);
+    }
+    50% {
+        transform: translate(0px, -12px);
+    }
+    100% {
+        transform: translate(0px, 0px);
+    }
+}
+
+
+.letter {
+    font-size: 1.2rem;
+    font-family:"Comic Sans MS" ,sans-serif;
+    position: relative;
+    left: 36px;
+    top: 57px;
+    font-weight: bold;
+    animation-name: letter-animation;
+    animation-iteration-count: infinite;
+    animation-duration: 3s;
+    animation-direction: normal;
+    animation-timing-function: ease-in-out;
+}
+#mountain {
+ width: 50%;
+}
