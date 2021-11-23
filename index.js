@@ -1,7 +1,7 @@
 
 
 
-const button = document.querySelectorAll(".white .piano")
+const button = document.querySelector(".piano")
 for (let i=0; i < button.length; i++){
      button[i].addEventListener("click",function() {
 
