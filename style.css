@@ -175,3 +175,114 @@ a:hover{
     position: relative;
     margin-bottom: 5%;
 }
+
+
+
+/* ــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــ */
+  
+  .container-piano {
+    display: flex;
+    text-align: center;
+    flex: 1;
+    justify-content: center;
+    
+  }
+  
+  
+  .s {
+    background-color:whitesmoke;
+  }
+  
+  .e {
+    background-color:black;
+  
+  }
+  
+  .d {
+    background-color:whitesmoke;
+  
+  }
+  
+  .r {
+    background:black;
+  
+  }
+  
+  .f {
+    background:whitesmoke;
+  
+  }
+  
+  .g {
+    background:whitesmoke;
+  
+  }
+  
+  .y {
+    background:black;
+  }
+  
+  .h {
+    background:whitesmoke;
+  
+  }
+  .u {
+    background:black;
+  
+  }
+  .j {
+    background:whitesmoke;
+  
+  }
+  .i {
+    background:black;
+  
+  }
+  .k {
+    background:whitesmoke;
+    
+  }
+  
+  .l {
+  background:whitesmoke;
+  }
+  
+  .pressed {
+    box-shadow: 0 3px 4px 0 #aebfc5 ;
+    opacity: 0.1;
+  }
+  
+  
+  
+  
+  .white {
+    outline: none;
+    border: 2px solid #404B69;
+    font-size: 1rem;
+    font-family: sans-serif;
+    font-weight: 100;
+    color: black;
+    border-radius: 5px;
+    width: 40px;
+    height: 180px;
+    line-height: 9cm;
+    margin: 0;
+  }
+  
+  .black {
+    position: absolute;
+    outline: none;
+    border: 2px solid #404B69;
+    font-weight: 50px;
+    color:whitesmoke;
+    border-radius: 10px;
+    width: 25px;
+    height: 110px;
+    margin: 0;
+  }
+  
+  #blk {
+    position: relative;
+    right: 12px;
+  }
+  
