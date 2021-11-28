@@ -1,24 +1,20 @@
+$(document).ready(function() {
+    $('body').hide().fadeIn(2500);
+});
 const button = document.querySelectorAll(".piano")
 for (let i=0; i < button.length; i++){
      button[i].addEventListener("click",function() {
-
           var buttonInnerHTML = this.innerHTML
           makeSound(buttonInnerHTML)
           buttonAnimation(buttonInnerHTML)
-
-
-     });
+     })
 }
-
 addEventListener("keypress", function(event){
      makeSound(event.key)
-
      buttonAnimation(event.key)
 })
 
 function makeSound(buttonInnerHTML){
-
-     
 
      switch (buttonInnerHTML) {
           case 'C':
@@ -160,10 +156,8 @@ function makeSound(buttonInnerHTML){
 
 function buttonAnimation(keypressed) {
 
-     
      var activeButton = document.querySelector("." + keypressed)
      activeButton.classList.add("pressed")
      setTimeout(function (){
           activeButton.classList.remove("pressed")}, 100)
-
 }
